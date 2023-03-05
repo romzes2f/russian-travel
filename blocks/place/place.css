@@ -23,7 +23,6 @@
     .place {
         padding-top: 72px;
         grid-template-columns: minmax(340px, 440px) minmax (352px, 456px);
-        padding-top: 72px;
         grid-column-gap: 28px;        
     }
 }
