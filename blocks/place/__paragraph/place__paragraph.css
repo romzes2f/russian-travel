@@ -10,24 +10,21 @@
     box-sizing: border-box;
 }
 
-.place__paragraph:nth-last-of-type(2n) {
+.place__paragraph:last-of-type {
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         max-width: 352px;
+        margin-bottom: 27px;
         font-size: 16px;
-    }
-
-    .place__paragraph:last-of-type {
-        margin-bottom: 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__paragraph {
-        margin: 0 auto 26px auto;
+        margin: 0 auto 25px auto;
         max-width: 484px;
         width: 100%;
         padding-left: 16px;

@@ -13,6 +13,24 @@
     color: white;
     text-decoration: none;
     position: relative;
+    z-index: 0;
+}
+
+.cover:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2F2C2F;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.cover:hover:before {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
